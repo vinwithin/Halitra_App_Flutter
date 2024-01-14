@@ -16,8 +16,8 @@ class _MyAppState extends State<MyApp> {
 
   static List<Widget> _widgetOptions = <Widget>[
     Home(),
+    Sign(),
     Tts(),
-    Sign()
     
   ];
 
@@ -52,7 +52,7 @@ class _MyAppState extends State<MyApp> {
             ),
             BottomNavigationBarItem(
               icon: Icon(Icons.voice_chat),
-              label: 'Profile',
+              label: 'TTS',
             ),
           ],
           currentIndex: _selectedIndex,
